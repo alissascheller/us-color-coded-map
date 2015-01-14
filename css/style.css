@@ -1,7 +1,16 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+
+h2 {
+    font-weight: 700;
+    font-size: 2em;
+}
+
 /* map */
 svg {
     width: 100%;
-    padding: 1em;
+    padding: 1em 0em 1em 0em;
 }
 
 
@@ -16,49 +25,38 @@ svg {
 
 
 /* tooltips */
-#blurb {
-    background: #f7f7f7;
-    padding: .5em;
+#blurbHeadline {
+    font-weight: 700;
+    font-size: 1.2em;
 }
 
 
-/* fade */
-.fade-out {
-    opacity : 0;
-    transition-property : opacity; 
-    transition-duration : 0.3s ease-in-out;
-    -moz-transition: opacity .3s ease-in-out;
-    -webkit-transition: opacity .3s ease-in-out;
-}
-.fade-in {
-    opacity : 1;
-    transition-property : opacity; 
-    transition-duration : 0.3s ease-in-out;
-    -moz-transition: opacity .3s ease-in-out;
-    -webkit-transition: opacity .3s ease-in-out;
-}
 path:hover, path:active {
-    opacity: .5;
+   opacity: .5;
 }
 
 /*  project-specific styles for map and legend */
-.Legal {	
-	fill:#69A9C5;
-    background:#69A9C5;
-    color: #69A9C5;
+
+.first {   
+    fill:#cfdddb;
+    color:#cfdddb;
+    stroke-weight: 3px;
+    stroke-color: #000;
 }
-.Appeal {   
-    fill:#ABD9E9;
-    background:#ABD9E9;
-    color:#ABD9E9;
+.second {    
+    fill:#a6c5c0;
+    color: #a6c5c0;
 }
-.Challenged {
-	fill: #F4A582;
-    background:#F4A582;
-    color:#F4A582;
+.third {
+	fill: #7fafa8;
+    color:#7fafa8;
 }
-.Banned { 
-    fill:#D6604D;
-    background:#D6604D;
-    color:#D6604D;
+.fourth { 
+    fill:#078e81;
+    color:#078e81;
+}
+
+.fifth { 
+    fill:#244b3d;
+    color: #244b3d;
 }
