@@ -1,3 +1,11 @@
+.container {
+    padding: 10px 5px 20px 5px;
+    width: 100%;
+    border-bottom: 1px solid #000;
+}
+
+/*text styles*/
+
 body {
   font-family: 'Open Sans', sans-serif;
 }
@@ -6,6 +14,11 @@ h2 {
     font-weight: 700;
     font-size: 2em;
 }
+
+.source {
+    font-size: .8em;
+}
+
 
 /* map */
 svg {
@@ -16,12 +29,12 @@ svg {
 
 /* map interaction styling */
 .selected {
-    opacity: .5;
+    opacity: .3;
 }
+
 .clickable {
     cursor: pointer;
 }
-
 
 
 /* tooltips */
@@ -30,9 +43,15 @@ svg {
     font-size: 1.2em;
 }
 
+#blurb {
+    background-color: #eee;
+    border: 1px solid #ccc;
+    padding: .5em 1em 1em 1em;
+    margin: 1em 0em 1em 0em;
+}
 
 path:hover, path:active {
-   opacity: .5;
+   opacity: .3;
 }
 
 /*  project-specific styles for map and legend */
@@ -40,8 +59,6 @@ path:hover, path:active {
 .first {   
     fill:#cfdddb;
     color:#cfdddb;
-    stroke-weight: 3px;
-    stroke-color: #000;
 }
 .second {    
     fill:#a6c5c0;
