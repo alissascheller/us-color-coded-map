@@ -1,10 +1,11 @@
 <html>
 <head>
-    <link href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
     <link href="css/style.css" rel="stylesheet" />
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
 </head>
 
-<div class="container-fluid">  
+<div class="container">  
     <h2>Title Goes Here</h2>
     <p>Intro text goes here. Intro text goes here. Intro text goes here. Intro text goes here. Intro text goes here.</p>
 
@@ -15,21 +16,22 @@
         <li><span class="fourth">&#9724;</span> Category 4</li>
         <li><span class="fifth">&#9724;</span> Category 5</li>
     </ul>
-
+    <div class="source">Click on a state for more information.</div>
+  
     
     <section id="blurb"></section>  
-    <aside class="small text-muted">Source: Sources go here</aside>
+    <div class="source"><b>Source:</b> Sources go here</div>
 </div>
 
-<script src="js/jquery.js"></script>
-<script src="js/tabletop.js"></script>	
+<script src="http://big.assets.huffingtonpost.com/jquery.js"></script>
+<script src="http://big.assets.huffingtonpost.com/tabletop01132015.js"></script>	
 <script type="text/javascript" src="http://assets.motherjones.com/interactives/plugins/pym.js/src/pym.js"></script>
 <script src="js/script.js"></script>	
 
 <script>
     us_map ({
       container: 'blurb',
-      initial_state: 'CA',
+      initial_state: 'DC',
       //proxy: proxy here,
       key: 'https://docs.google.com/spreadsheets/d/1VprWEa7LgaDz1tgQeT9orFiBrYVd9nB68nfhyENY7Ng/pubhtml',
     })
